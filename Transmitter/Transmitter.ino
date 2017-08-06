@@ -72,6 +72,5 @@
      radio.write(&joystick,sizeof(joystick));  
  
      radio.startListening();
- 
-     delay(10);
+
     }

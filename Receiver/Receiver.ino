@@ -2,7 +2,7 @@
     #include "nRF24L01.h"
     #include "RF24.h"
  
-    RF24 radio(3,10);
+    RF24 radio(7,8);
 
     #define CHANNEL_NUMBER 4
     #define CHANNEL_DEFAULT_VALUE 1200

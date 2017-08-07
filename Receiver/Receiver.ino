@@ -1,3 +1,4 @@
+#include <RF24.h>
 #include <SPI.h>
     #include "nRF24L01.h"
     #include "RF24.h"
@@ -73,7 +74,6 @@
         ppm[j]=map(joystick[j],0,1023,1000,2000);
       }
     
-    delay(20);
     }
     }
 
